@@ -28,3 +28,47 @@ Built from scratch to give you rock-solid per-monitor task routing, eye-friendly
 2. Install it with one command:
    ```bash
    gnome-extensions install elsa-cute-winstart@elsaballerina.github.io.shell-extension.zip
+   ```
+3. **Log out and log back in** (required on Wayland to load new extensions).
+4. Enable it and open Settings:
+   ```bash
+   gnome-extensions enable elsa-cute-winstart@elsaballerina.github.io
+   gnome-extensions prefs elsa-cute-winstart@elsaballerina.github.io
+   ```
+   *(If user extensions are disabled in GNOME, run `gsettings set org.gnome.shell disable-user-extensions false` first.)*
+
+---
+
+## 🛠️ Manual Install (From Source)
+
+```bash
+git clone [https://github.com/elsaballerina/Elsa-Cute-WinStart.git](https://github.com/elsaballerina/Elsa-Cute-WinStart.git)
+cd Elsa-Cute-WinStart
+chmod +x install.sh
+./install.sh
+```
+
+---
+
+## 📸 Screenshots
+
+### Start Menu & Right-Click Menu
+![Start Menu](screenshots/START.png)
+![Right-Click Start Menu](screenshots/Right-Click.png)
+
+### Settings
+![Appearance](screenshots/Appearance.png)
+![Tasks & Start](screenshots/Tasks%20&%20Start.png)
+![Monitors](screenshots/Monitors.png)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  🌸 Made with 💖 by <a href="https://elsaballerina.github.io">Elsa Ballerina</a> 🌸
+</p>
