@@ -55,6 +55,7 @@ chmod +x install.sh
 ### Start Menu & Right-Click Menu
 ![Start Menu](screenshots/START.png)
 ![Right-Click Start Menu](screenshots/Right-Click.png)
+![System Tray](screenshots/SystemTray.png)
 
 ### Settings
 ![Appearance](screenshots/Appearance.png)
