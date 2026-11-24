@@ -9,7 +9,7 @@ function addCuteHeader(page) {
     const group = new Adw.PreferencesGroup();
     const label = new Gtk.Label({
         use_markup: true,
-        label: '<span size="x-large" weight="bold">🌸 Elsa-Cute-WinStart ✨ 1.0 v1.0</span>',
+        label: '<span size="x-large" weight="bold">🌸 Elsa-Cute-WinStart ✨ v1.0</span>',
         halign: Gtk.Align.CENTER,
         margin_top: 4,
         margin_bottom: 4,
@@ -34,7 +34,7 @@ function addCuteFooter(page) {
 export default class ElsaCuteWinStartPrefs extends ExtensionPreferences {
     fillPreferencesWindow(window) {
         const settings = this.getSettings();
-        window.set_title('🌸 Elsa-Cute-WinStart ✨ 1.0 v1.0');
+        window.set_title('🌸 Elsa-Cute-WinStart ✨ v1.0');
         window.set_default_size(640, 620);
 
         // =====================================================
