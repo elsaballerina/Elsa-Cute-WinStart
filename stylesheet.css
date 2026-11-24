@@ -1,0 +1,397 @@
+/* =========================================================
+ *  Elsa-Cute-WinStart v0.1 — Calm Themes & Shape Styles
+ *  ========================================================= */
+
+.ecws-panel {
+    padding: 3px 6px;
+    spacing: 6px;
+}
+
+.ecws-tasks-box {
+    spacing: 4px;
+}
+
+.ecws-button {
+    padding: 2px 8px;
+    spacing: 6px;
+    font-weight: 500;
+    transition-duration: 120ms;
+}
+
+.ecws-start-button {
+    padding: 2px 12px;
+    spacing: 6px;
+    font-weight: 700;
+}
+
+.ecws-task-button {
+    min-width: 110px;
+    max-width: 210px;
+}
+
+.ecws-task-button.compact {
+    min-width: 34px;
+    max-width: 44px;
+    padding: 2px 6px;
+}
+
+.ecws-task-button.minimized {
+    opacity: 0.65;
+}
+
+.ecws-badge {
+    padding: 0px 5px;
+    border-radius: 8px;
+    font-size: 9pt;
+    font-weight: 700;
+}
+
+.ecws-clock {
+    padding: 2px 10px;
+    font-weight: 600;
+}
+
+/* ---------- SHAPE STYLES ---------- */
+
+.style-classic-98 .ecws-button,
+.style-classic-98 .ecws-start-button {
+    border-radius: 1px;
+    border-width: 2px;
+}
+
+.style-classic-98 .ecws-clock {
+    border-radius: 1px;
+    border-width: 1px;
+}
+
+.style-soft-cute .ecws-button,
+.style-soft-cute .ecws-start-button,
+.style-soft-cute .ecws-clock {
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+.style-compact-minimal .ecws-button,
+.style-compact-minimal .ecws-start-button,
+.style-compact-minimal .ecws-clock {
+    border-radius: 4px;
+    border-width: 0px;
+    border-bottom-width: 2px;
+}
+
+/* ---------- THEME: LIGHT ---------- */
+.theme-light.ecws-panel {
+    background-color: #ECEBE8;
+    color: #2E3136;
+    border-top: 1px solid #FFFFFF;
+}
+.theme-light .ecws-button,
+.theme-light .ecws-start-button {
+    background-color: #F6F5F2;
+    color: #2E3136;
+    border-color: #D5D2CA;
+}
+.theme-light.style-classic-98 .ecws-button,
+.theme-light.style-classic-98 .ecws-start-button {
+    border-top-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    border-right-color: #B8B5AD;
+    border-bottom-color: #B8B5AD;
+}
+.theme-light .ecws-button:hover,
+.theme-light .ecws-start-button:hover {
+    background-color: #FFFFFF;
+}
+.theme-light .ecws-button.active {
+    background-color: #DCDAD4;
+    border-bottom-color: #5B7FA6;
+}
+.theme-light.style-classic-98 .ecws-button.active {
+    border-top-color: #A6A39B;
+    border-left-color: #A6A39B;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+.theme-light .ecws-clock {
+    background-color: #E3E1DB;
+    border-color: #C8C5BD;
+    color: #2E3136;
+}
+.theme-light .ecws-badge {
+    background-color: #5B7FA6;
+    color: #FFFFFF;
+}
+
+/* ---------- THEME: DARK ---------- */
+.theme-dark.ecws-panel {
+    background-color: #23262E;
+    color: #E2E5EC;
+    border-top: 1px solid #353A46;
+}
+.theme-dark .ecws-button,
+.theme-dark .ecws-start-button {
+    background-color: #2D313B;
+    color: #E2E5EC;
+    border-color: #3D4352;
+}
+.theme-dark.style-classic-98 .ecws-button,
+.theme-dark.style-classic-98 .ecws-start-button {
+    border-top-color: #464C5C;
+    border-left-color: #464C5C;
+    border-right-color: #16181E;
+    border-bottom-color: #16181E;
+}
+.theme-dark .ecws-button:hover,
+.theme-dark .ecws-start-button:hover {
+    background-color: #363B47;
+}
+.theme-dark .ecws-button.active {
+    background-color: #1A1D24;
+    border-bottom-color: #7E9CD8;
+}
+.theme-dark.style-classic-98 .ecws-button.active {
+    border-top-color: #121419;
+    border-left-color: #121419;
+    border-right-color: #464C5C;
+    border-bottom-color: #464C5C;
+}
+.theme-dark .ecws-clock {
+    background-color: #1D2028;
+    border-color: #353A46;
+    color: #E2E5EC;
+}
+.theme-dark .ecws-badge {
+    background-color: #7E9CD8;
+    color: #1A1D24;
+}
+
+/* ---------- THEME: SAKURA PINK ---------- */
+.theme-sakura-pink.ecws-panel {
+    background-color: #F4E8EB;
+    color: #473137;
+    border-top: 1px solid #FFF8FA;
+}
+.theme-sakura-pink .ecws-button,
+.theme-sakura-pink .ecws-start-button {
+    background-color: #FAF2F4;
+    color: #473137;
+    border-color: #DFC7CE;
+}
+.theme-sakura-pink.style-classic-98 .ecws-button,
+.theme-sakura-pink.style-classic-98 .ecws-start-button {
+    border-top-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    border-right-color: #C9ADB5;
+    border-bottom-color: #C9ADB5;
+}
+.theme-sakura-pink .ecws-button:hover,
+.theme-sakura-pink .ecws-start-button:hover {
+    background-color: #FFF9FA;
+}
+.theme-sakura-pink .ecws-button.active {
+    background-color: #E5D0D6;
+    border-bottom-color: #C77A92;
+}
+.theme-sakura-pink.style-classic-98 .ecws-button.active {
+    border-top-color: #BC9DA6;
+    border-left-color: #BC9DA6;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+.theme-sakura-pink .ecws-clock {
+    background-color: #ECDCE1;
+    border-color: #D7BCC4;
+    color: #473137;
+}
+.theme-sakura-pink .ecws-badge {
+    background-color: #C77A92;
+    color: #FFFFFF;
+}
+
+/* ---------- THEME: PASTEL LAVENDER ---------- */
+.theme-pastel-lavender.ecws-panel {
+    background-color: #EDE9F5;
+    color: #363045;
+    border-top: 1px solid #FAF8FF;
+}
+.theme-pastel-lavender .ecws-button,
+.theme-pastel-lavender .ecws-start-button {
+    background-color: #F5F2FA;
+    color: #363045;
+    border-color: #D2C9E3;
+}
+.theme-pastel-lavender.style-classic-98 .ecws-button,
+.theme-pastel-lavender.style-classic-98 .ecws-start-button {
+    border-top-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    border-right-color: #B8ADD0;
+    border-bottom-color: #B8ADD0;
+}
+.theme-pastel-lavender .ecws-button:hover,
+.theme-pastel-lavender .ecws-start-button:hover {
+    background-color: #FBF9FF;
+}
+.theme-pastel-lavender .ecws-button.active {
+    background-color: #DBD4EA;
+    border-bottom-color: #8A77BF;
+}
+.theme-pastel-lavender.style-classic-98 .ecws-button.active {
+    border-top-color: #ACA0C6;
+    border-left-color: #ACA0C6;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+.theme-pastel-lavender .ecws-clock {
+    background-color: #E3DDF0;
+    border-color: #C9BFE0;
+    color: #363045;
+}
+.theme-pastel-lavender .ecws-badge {
+    background-color: #8A77BF;
+    color: #FFFFFF;
+}
+
+/* ---------- THEME: MINT CREAM ---------- */
+.theme-mint-cream.ecws-panel {
+    background-color: #E7F1ED;
+    color: #2A3D37;
+    border-top: 1px solid #F7FCF9;
+}
+.theme-mint-cream .ecws-button,
+.theme-mint-cream .ecws-start-button {
+    background-color: #F1F7F5;
+    color: #2A3D37;
+    border-color: #C5DBD2;
+}
+.theme-mint-cream.style-classic-98 .ecws-button,
+.theme-mint-cream.style-classic-98 .ecws-start-button {
+    border-top-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    border-right-color: #A7C4B9;
+    border-bottom-color: #A7C4B9;
+}
+.theme-mint-cream .ecws-button:hover,
+.theme-mint-cream .ecws-start-button:hover {
+    background-color: #F8FCFA;
+}
+.theme-mint-cream .ecws-button.active {
+    background-color: #D3E3DC;
+    border-bottom-color: #5D9C86;
+}
+.theme-mint-cream.style-classic-98 .ecws-button.active {
+    border-top-color: #9BBAB0;
+    border-left-color: #9BBAB0;
+    border-right-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+.theme-mint-cream .ecws-clock {
+    background-color: #DCEAE4;
+    border-color: #BDD5CB;
+    color: #2A3D37;
+}
+.theme-mint-cream .ecws-badge {
+    background-color: #5D9C86;
+    color: #FFFFFF;
+}
+/* =========================================================
+ v 0.2 — System Tray & Custom Start Menu                       *
+ ========================================================= */
+
+.ecws-tray {
+    padding: 2px 8px;
+    spacing: 8px;
+}
+
+.ecws-start-menu-box {
+    width: 470px;
+    height: 440px;
+    padding: 10px;
+    spacing: 8px;
+}
+
+.ecws-search-entry {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    font-size: 10.5pt;
+}
+
+.ecws-menu-columns {
+    spacing: 8px;
+}
+
+.ecws-categories-col {
+    width: 145px;
+    spacing: 3px;
+}
+
+.ecws-cat-button {
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.ecws-cat-button.active {
+    font-weight: 700;
+}
+
+.ecws-apps-scroll {
+    width: 300px;
+}
+
+.ecws-apps-list {
+    spacing: 3px;
+}
+
+.ecws-app-item {
+    padding: 6px 8px;
+    border-radius: 6px;
+    spacing: 8px;
+}
+
+.ecws-power-bar {
+    padding-top: 8px;
+    spacing: 6px;
+    border-top-width: 1px;
+}
+
+.ecws-power-btn {
+    padding: 5px 8px;
+    border-radius: 6px;
+    spacing: 4px;
+    font-size: 9.5pt;
+    font-weight: 600;
+}
+
+/* ---------- START MENU THEME COLORS ---------- */
+
+.theme-light .ecws-start-menu-box { background-color: #ECEBE8; color: #2E3136; }
+.theme-light .ecws-search-entry { background-color: #FFFFFF; color: #2E3136; border-color: #C8C5BD; }
+.theme-light .ecws-cat-button:hover, .theme-light .ecws-app-item:hover, .theme-light .ecws-power-btn:hover { background-color: #DCDAD4; }
+.theme-light .ecws-cat-button.active { background-color: #5B7FA6; color: #FFFFFF; }
+.theme-light .ecws-power-bar { border-top-color: #D5D2CA; }
+
+.theme-dark .ecws-start-menu-box { background-color: #23262E; color: #E2E5EC; }
+.theme-dark .ecws-search-entry { background-color: #1A1D24; color: #E2E5EC; border-color: #3D4352; }
+.theme-dark .ecws-cat-button:hover, .theme-dark .ecws-app-item:hover, .theme-dark .ecws-power-btn:hover { background-color: #2D313B; }
+.theme-dark .ecws-cat-button.active { background-color: #7E9CD8; color: #1A1D24; }
+.theme-dark .ecws-power-bar { border-top-color: #353A46; }
+
+.theme-sakura-pink .ecws-start-menu-box { background-color: #F4E8EB; color: #473137; }
+.theme-sakura-pink .ecws-search-entry { background-color: #FFF9FA; color: #473137; border-color: #DFC7CE; }
+.theme-sakura-pink .ecws-cat-button:hover, .theme-sakura-pink .ecws-app-item:hover, .theme-sakura-pink .ecws-power-btn:hover { background-color: #E5D0D6; }
+.theme-sakura-pink .ecws-cat-button.active { background-color: #C77A92; color: #FFFFFF; }
+.theme-sakura-pink .ecws-power-bar { border-top-color: #DFC7CE; }
+
+.theme-pastel-lavender .ecws-start-menu-box { background-color: #EDE9F5; color: #363045; }
+.theme-pastel-lavender .ecws-search-entry { background-color: #FBF9FF; color: #363045; border-color: #D2C9E3; }
+.theme-pastel-lavender .ecws-cat-button:hover, .theme-pastel-lavender .ecws-app-item:hover, .theme-pastel-lavender .ecws-power-btn:hover { background-color: #DBD4EA; }
+.theme-pastel-lavender .ecws-cat-button.active { background-color: #8A77BF; color: #FFFFFF; }
+.theme-pastel-lavender .ecws-power-bar { border-top-color: #D2C9E3; }
+
+.theme-mint-cream .ecws-start-menu-box { background-color: #E7F1ED; color: #2A3D37; }
+.theme-mint-cream .ecws-search-entry { background-color: #F8FCFA; color: #2A3D37; border-color: #C5DBD2; }
+.theme-mint-cream .ecws-cat-button:hover, .theme-mint-cream .ecws-app-item:hover, .theme-mint-cream .ecws-power-btn:hover { background-color: #D3E3DC; }
+.theme-mint-cream .ecws-cat-button.active { background-color: #5D9C86; color: #FFFFFF; }
+.theme-mint-cream .ecws-power-bar { border-top-color: #C5DBD2; }

@@ -1,0 +1,9 @@
+{
+  "uuid": "elsa-cute-winstart@elsaballerina.github.io",
+  "name": "Elsa-Cute-WinStart",
+  "description": "A cute, calm, Windows 98-inspired multi-monitor taskbar and Start menu for GNOME.",
+  "version": 2,
+  "shell-version": ["47", "48", "49", "50", "51"],
+  "settings-schema": "org.gnome.shell.extensions.elsa-cute-winstart",
+  "url": "https://elsaballerina.github.io/"
+}

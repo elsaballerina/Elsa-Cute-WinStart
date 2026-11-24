@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.elsa-cute-winstart"
+          path="/org/gnome/shell/extensions/elsa-cute-winstart/">
+
+    <key name="theme" type="s">
+      <default>'sakura-pink'</default>
+      <summary>Color Theme</summary>
+    </key>
+
+    <key name="panel-style" type="s">
+      <default>'classic-98'</default>
+      <summary>Panel Shape Style</summary>
+    </key>
+
+    <key name="task-mode" type="s">
+      <default>'separate'</default>
+      <summary>Task Display Mode (separate, grouped, compact)</summary>
+    </key>
+
+    <key name="panel-height" type="i">
+      <default>38</default>
+      <range min="28" max="64"/>
+      <summary>Panel Height in pixels</summary>
+    </key>
+
+    <key name="icon-size" type="i">
+      <default>20</default>
+      <range min="14" max="36"/>
+      <summary>Task Icon Size in pixels</summary>
+    </key>
+
+    <key name="font-size" type="i">
+      <default>11</default>
+      <range min="9" max="18"/>
+      <summary>Font Size in pt</summary>
+    </key>
+
+    <key name="show-start-button" type="b">
+      <default>true</default>
+      <summary>Show Start Button</summary>
+    </key>
+
+    <key name="override-super-key" type="b">
+      <default>false</default>
+      <summary>Open Start Menu with Super (Win) Key</summary>
+    </key>
+
+    <key name="start-button-label" type="s">
+      <default>'Start'</default>
+      <summary>Start Button Text</summary>
+    </key>
+
+    <key name="show-system-tray" type="b">
+      <default>true</default>
+      <summary>Show System Tray (Sound, Network, Bluetooth, Power)</summary>
+    </key>
+
+    <key name="show-clock" type="b">
+      <default>true</default>
+      <summary>Show Clock</summary>
+    </key>
+
+    <key name="hide-top-panel" type="b">
+      <default>false</default>
+      <summary>Hide Default GNOME Top Bar</summary>
+    </key>
+
+    <key name="monitor-config" type="s">
+      <default>'{}'</default>
+      <summary>JSON per-monitor configuration keyed by connector name</summary>
+    </key>
+
+    <key name="detected-monitors" type="s">
+      <default>'[]'</default>
+      <summary>JSON list of currently detected monitors written by extension</summary>
+    </key>
+
+  </schema>
+</schemalist>
